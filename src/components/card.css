@@ -18,3 +18,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.card-buttons a {
+  margin: 10px;
+}

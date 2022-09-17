@@ -12,7 +12,14 @@ export default function Card(props) {
         <div className="card-body">
           <h5 className="card-title ">{props.title}</h5>
           <p className="card-text  ">{props.body}</p>
-          {/*<a href="#" class="btn btn-primary">Go somewhere</a>*/}
+          <div className="card-buttons">
+            <a href={`display/${props.id}`} class="btn btn-primary">
+              Display Post
+            </a>
+            <a href={`edit/${props.id}`} class="btn btn-primary">
+              Edit Post
+            </a>
+          </div>
         </div>
       </div>
     </div>

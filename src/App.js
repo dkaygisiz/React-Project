@@ -4,6 +4,7 @@ import axios from "axios";
 import Card from "./components/Card";
 import Pagination from "./components/Pagination";
 import "./App.css";
+import Navbar from "./components/Navbar";
 function App() {
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -38,6 +39,7 @@ function App() {
   ));
   return (
     <>
+      <Navbar />
       <div className="container">
         <div className="row">{cards}</div>
       </div>
