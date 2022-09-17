@@ -1,8 +1,8 @@
 # Goals Achieved
 
-<p>Commit 1: Card Component added, fetched the data and mapped over it. </p>
-<p>Commit 2: Added Pagination </p>
-
+<p>1- Card Component added, fetched the data and mapped over it. </p>
+<p>2- Added Pagination </p>
+<p>3- Added Navbar</p>
 
 
 
