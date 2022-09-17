@@ -1,7 +1,7 @@
 # Goals Achieved
 
 <p>Commit 1: Card Component added, fetched the data and mapped over it. </p>
-
+<p>Commit 2: Added Pagination </p>
 
 
 
